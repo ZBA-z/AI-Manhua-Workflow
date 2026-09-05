@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/
+docs/ui-evidence/
+output/
+*.db
+*.db-shm
+*.db-wal
+*.lock
+*.log
+*.mp4
+*.part
+*.crdownload
+configs/*-production.json
+data/
+docs/ui-evidence/

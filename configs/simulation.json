@@ -1,0 +1,426 @@
+{
+  "script_dir": "data\\simulation\\script",
+  "character_dir": "data\\simulation\\characters",
+  "scene_dir": "data\\simulation\\scenes",
+  "supplemental_asset_dirs": [
+    "data\\simulation\\supplemental"
+  ],
+  "background_settings": "data\\simulation\\script\\background.txt",
+  "asset_settings": "data\\simulation\\script\\assets.txt",
+  "output_dir": "data\\simulation\\output",
+  "download_dir": "data\\simulation\\output",
+  "download_discovery_dirs": [
+    "data\\simulation\\output"
+  ],
+  "download_dir_must_equal_output": false,
+  "database": "data\\simulation\\workflow.db",
+  "report": "data\\simulation\\report.json",
+  "ui_calibration": "configs\\ui_calibration.json",
+  "doubao_executable": "",
+  "doubao_shortcut": "",
+  "validation": {
+    "min_episodes": 27,
+    "min_shots": 309,
+    "min_character_assets": 50,
+    "min_scene_assets": 15,
+    "expected_episode_start": 4,
+    "expected_episode_end": 30
+  },
+  "reference_map": {},
+  "max_reference_images": 10,
+  "allow_no_reference_shots": true,
+  "no_reference_allowlist_terms": [
+    "黑场",
+    "纯黑",
+    "抽象画面",
+    "能量漩涡",
+    "宇宙深处"
+  ],
+  "reference_aliases": {
+    "749局.png": [
+      "指挥所",
+      "临时指挥所",
+      "星枢局",
+      "749局指挥所"
+    ],
+    "废弃医院.png": [
+      "医院大厅",
+      "医院外",
+      "废弃医院",
+      "医院"
+    ],
+    "受损城市.png": [
+      "城市废墟",
+      "城市废墟巷道",
+      "受损城市",
+      "城市街道",
+      "街道"
+    ],
+    "蓝星临时避难营地.png": [
+      "临时营地",
+      "营地公园",
+      "避难营地",
+      "临时避难所",
+      "营地"
+    ],
+    "蓝星联军防线·战壕.png": [
+      "战壕",
+      "联军防线",
+      "防线"
+    ],
+    "蓝星联军基地.png": [
+      "联军基地",
+      "军方基地",
+      "基地的最高处"
+    ],
+    "地球联邦星际基地「黎明要塞」.png": [
+      "黎明要塞",
+      "星际基地"
+    ],
+    "星空战场.png": [
+      "太空战场",
+      "星空战场",
+      "外太空",
+      "外太空战场",
+      "战舰对峙"
+    ],
+    "战舰机库.png": [
+      "战舰机库",
+      "机库",
+      "舰桥",
+      "战舰桥"
+    ],
+    "星门组织总部.png": [
+      "星门组织总部",
+      "组织总部"
+    ],
+    "海底神殿.png": [
+      "海底神殿",
+      "神殿",
+      "海底",
+      "海底石板",
+      "海底遗迹"
+    ],
+    "城市地下避难所.png": [
+      "城市地下避难所",
+      "地下避难所"
+    ],
+    "废弃地下车库.png": [
+      "废弃地下车库",
+      "地下车库"
+    ],
+    "神照社.png": [
+      "神照社"
+    ],
+    "诡异占领区·红雾污染城市.png": [
+      "红雾污染城市",
+      "诡异占领区",
+      "红雾城市"
+    ],
+    "地球联邦战.png": [
+      "演习场",
+      "训练场",
+      "战场"
+    ],
+    "圣教会大教堂.png": [
+      "教堂",
+      "大教堂"
+    ],
+    "金色匣子.png": [
+      "金属匣子",
+      "密码匣",
+      "匣子"
+    ],
+    "盘古心脏.png": [
+      "盘古心脏",
+      "心脏化石"
+    ],
+    "盘古遗骸.png": [
+      "盘古",
+      "盘古残躯",
+      "完整盘古",
+      "巨人遗骸",
+      "遗骸"
+    ],
+    "神明传承信物.png": [
+      "神明传承信物",
+      "传承信物",
+      "信物"
+    ],
+    "哪吒石像.png": [
+      "哪吒石像",
+      "神像",
+      "石像"
+    ],
+    "星际战舰.苍穹.png": [
+      "苍穹号",
+      "星际战舰",
+      "战舰"
+    ],
+    "蓝星联军军旗.png": [
+      "联军军旗",
+      "军旗"
+    ],
+    "序列魔药.png": [
+      "序列魔药",
+      "魔药"
+    ],
+    "诡异污染结晶.png": [
+      "污染结晶",
+      "诡异结晶"
+    ],
+    "装甲749.png": [
+      "749装甲",
+      "装甲车"
+    ],
+    "陈默。寄生.png": [
+      "寄生陈默",
+      "感染陈默"
+    ],
+    "陈默不可控.png": [
+      "不可控陈默",
+      "失控陈默"
+    ],
+    "战损林雾.png": [
+      "受损林雾"
+    ],
+    "林雾武器.png": [
+      "林雾武器"
+    ],
+    "749局队长周.png": [
+      "周峥",
+      "749局队长"
+    ],
+    "诡计之神洛基.png": [
+      "洛基",
+      "诡计之神"
+    ],
+    "荷鲁斯.png": [
+      "荷鲁斯"
+    ],
+    "酒神.png": [
+      "酒神",
+      "狄俄尼索斯"
+    ],
+    "紫微大帝.png": [
+      "紫微大帝",
+      "北极紫微",
+      "紫微"
+    ],
+    "伏羲.png": [
+      "伏羲"
+    ],
+    "哪吒.png": [
+      "哪吒"
+    ],
+    "蛊师.png": [
+      "苏媚娘",
+      "蛊师"
+    ],
+    "外神.png": [
+      "阿撒托斯",
+      "阿撒托斯投影",
+      "外神",
+      "诡异源头"
+    ],
+    "记忆碎片·混沌世界.png": [
+      "混沌世界",
+      "记忆碎片",
+      "混沌"
+    ],
+    "宇宙创生.png": [
+      "宇宙创生"
+    ],
+    "封印深处.png": [
+      "封印深处",
+      "封印"
+    ],
+    "城市中心广场.png": [
+      "城市中心广场",
+      "中心广场",
+      "喷泉广场"
+    ],
+    "未知城市废墟·时间倒流.png": [
+      "东海市时间倒流",
+      "时间倒流",
+      "未知城市废墟"
+    ],
+    "训练室.png": [
+      "训练室"
+    ],
+    "基地外.png": [
+      "基地外"
+    ],
+    "基地密室.png": [
+      "基地密室",
+      "密室"
+    ],
+    "基地废墟.png": [
+      "基地废墟"
+    ],
+    "蓝星超远景.png": [
+      "蓝星超远景"
+    ],
+    "蓝星大气层.png": [
+      "蓝星大气层"
+    ],
+    "宇宙深处.png": [
+      "宇宙深处"
+    ],
+    "诡异占领区·红雾污染.png": [
+      "诡异占领区",
+      "红雾污染城市",
+      "红雾污染"
+    ],
+    "演习场.png": [
+      "演习场"
+    ],
+    "战舰会议室.png": [
+      "战舰会议室",
+      "会议室"
+    ],
+    "指挥中心.png": [
+      "指挥中心",
+      "基地指挥中心"
+    ],
+    "火尖枪.png": [
+      "火尖枪"
+    ],
+    "风火轮.png": [
+      "风火轮"
+    ],
+    "混天绫.png": [
+      "混天绫"
+    ],
+    "乾坤圈.png": [
+      "乾坤圈"
+    ],
+    "紫微帝玺.png": [
+      "紫微帝玺",
+      "紫微帝玺"
+    ],
+    "天枢剑.png": [
+      "天枢剑"
+    ],
+    "伏羲琴.png": [
+      "伏羲琴"
+    ],
+    "荷鲁斯之眼.png": [
+      "荷鲁斯之眼"
+    ],
+    "Was权杖.png": [
+      "Was权杖",
+      "Was权杖"
+    ],
+    "谎言之角.png": [
+      "谎言之角",
+      "谎言号角"
+    ],
+    "变形法杖.png": [
+      "变形法杖"
+    ],
+    "双柄酒杯.png": [
+      "双柄酒杯"
+    ],
+    "常春藤权杖.png": [
+      "常春藤权杖"
+    ],
+    "高频短刃（林雾武器）.png": [
+      "高频短刃",
+      "林雾武器"
+    ],
+    "蛊虫袋（苏媚娘道具）.png": [
+      "蛊虫袋",
+      "苏媚娘道具"
+    ],
+    "黄符（出马仙道具）.png": [
+      "黄符",
+      "出马仙道具"
+    ],
+    "全息地图.png": [
+      "全息地图",
+      "全息蓝星地图",
+      "地图"
+    ],
+    "反物质导弹（战舰武器）.png": [
+      "反物质导弹",
+      "战舰武器"
+    ],
+    "时间族.png": [
+      "时烬",
+      "时间族"
+    ],
+    "地球指挥官.png": [
+      "沈毅",
+      "少将",
+      "地球指挥官"
+    ],
+    "渊安全版.png": [
+      "渊安全版",
+      "渊。安全",
+      "小女孩（渊",
+      "女孩（渊",
+      "女孩(渊",
+      "粉色连衣裙女孩"
+    ],
+    "星球附属.png": [
+      "星噬",
+      "星球级附庸",
+      "星球附属"
+    ],
+    "开天巨斧.png": [
+      "开天巨斧",
+      "开天斧",
+      "巨斧"
+    ],
+    "八件神器合集.png": [
+      "八件神器",
+      "八件神器合集",
+      "神器网格"
+    ]
+  },
+  "video": {
+    "model": "Seedance 2.0 Fast",
+    "duration_seconds": 10,
+    "aspect_ratio": "16:9"
+  },
+  "text_agent": {
+    "provider": "codex",
+    "model": "gpt-5.6-terra",
+    "reasoning_effort": "high",
+    "mode": "exception_only",
+    "cache_by_input_hash": true,
+    "max_context_chars": 12000
+  },
+  "quality": {
+    "enabled": true,
+    "review_dir": "data\\quality-review",
+    "evidence_dir": "data\\quality-evidence",
+    "black_ratio_limit": 0.45,
+    "freeze_ratio_limit": 0.85
+  },
+  "accounts": [],
+  "account_audit_restore": "",
+  "download": {
+    "enabled": false,
+    "button_timeout_seconds": 600,
+    "timeout_seconds": 900
+  },
+  "automation": {
+    "enabled": true,
+    "allow_submit": true,
+    "staged_validation_passed": true,
+    "launch_doubao_on_startup": true,
+    "max_recoveries_per_start": 10,
+    "max_submissions_per_start": 1,
+    "daily_submission_cap": 18,
+    "unconfirmed_retry_limit": 0,
+    "schedule_window_enabled": true,
+    "activation_date": "2026-08-31",
+    "schedule_start_hour": 15,
+    "schedule_end_hour": 24,
+    "watchdog_minutes": 10,
+    "workflow_timeout_seconds": 3600,
+    "require_unlocked_desktop": true
+  }
+}

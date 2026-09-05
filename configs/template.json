@@ -1,0 +1,67 @@
+{
+  "script_dir": "D:\\path\\to\\script",
+  "character_dir": "D:\\path\\to\\characters",
+  "scene_dir": "D:\\path\\to\\scenes",
+  "background_settings": "C:\\path\\to\\background.txt",
+  "asset_settings": "C:\\path\\to\\assets.txt",
+  "output_dir": "D:\\path\\to\\output",
+  "download_dir": "D:\\path\\to\\downloads",
+  "download_discovery_dirs": ["D:\\path\\to\\downloads"],
+  "database": "data\\workflow.db",
+  "report": "data\\prepare-report.json",
+  "ui_calibration": "configs\\ui_calibration.json",
+  "doubao_executable": "C:\\path\\to\\Doubao.exe",
+  "doubao_shortcut": "C:\\Users\\<user>\\Desktop\\豆包.lnk",
+  "validation": {
+    "min_episodes": 1,
+    "min_shots": 1,
+    "min_character_assets": 1,
+    "min_scene_assets": 1
+  },
+  "reference_map": {},
+  "max_reference_images": 10,
+  "allow_no_reference_shots": false,
+  "no_reference_allowlist_terms": ["黑场", "纯黑", "抽象画面", "能量漩涡", "宇宙深处"],
+  "reference_aliases": {},
+  "video": {
+    "model": "Seedance 2.0 Fast",
+    "duration_seconds": 10,
+    "aspect_ratio": "16:9"
+  },
+  "text_agent": {
+    "provider": "codex",
+    "model": "gpt-5.6-terra",
+    "reasoning_effort": "high",
+    "mode": "exception_only",
+    "cache_by_input_hash": true,
+    "max_context_chars": 12000
+  },
+  "quality": {
+    "enabled": true,
+    "review_dir": "data\\quality-review",
+    "evidence_dir": "data\\quality-evidence",
+    "black_ratio_limit": 0.45,
+    "freeze_ratio_limit": 0.85
+  },
+  "accounts": [],
+  "download": {
+    "enabled": false,
+    "button_timeout_seconds": 600,
+    "timeout_seconds": 900
+  },
+  "automation": {
+    "enabled": false,
+    "allow_submit": false,
+    "staged_validation_passed": false,
+    "launch_doubao_on_startup": true,
+    "max_submissions_per_start": 3,
+    "daily_submission_cap": 18,
+    "unconfirmed_retry_limit": 0,
+    "schedule_window_enabled": true,
+    "schedule_start_hour": 15,
+    "schedule_end_hour": 24,
+    "watchdog_minutes": 10,
+    "workflow_timeout_seconds": 3600,
+    "require_unlocked_desktop": true
+  }
+}

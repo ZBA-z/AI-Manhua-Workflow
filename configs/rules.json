@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "target_seconds": 10,
+  "max_shots_per_task": 3,
+  "required_aspect_ratio": "16:9",
+  "failure_categories": ["parser", "asset", "prompt", "ui", "moderation", "download", "media", "archive"],
+  "manual_review_when": ["dialogue_compression", "missing_reference", "ui_control_missing", "non_16_9"],
+  "change_policy": "suggest_then_confirm"
+}

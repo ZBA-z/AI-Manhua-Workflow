@@ -1,0 +1,7 @@
+{
+  "required_controls": ["视频生成", "Seedance 2.0 Fast", "10s", "16:9"],
+  "evidence_capture": false,
+  "coordinate_account_verification": false,
+  "accounts": [],
+  "notes": "本文件为脱敏占位配置；真实桌面校准只保存在本机，不提交到版本库。"
+}
